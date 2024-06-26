@@ -1,0 +1,115 @@
+.button-blue {
+    height: 100px;
+    font-size: 50px;
+    background-color: rgb(13, 60, 247);
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    -unity-font-style: bold;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+}
+
+.button-blue:hover {
+    scale: 1.02 1.1;
+}
+
+.button-blue:active {
+    background-color: rgb(1, 196, 247);
+}
+
+.text--title {
+    font-size: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    -unity-text-align: upper-center;
+    -unity-font: initial;
+    -unity-font-definition: url("project://database/Assets/UI%20Toolkit/UnityThemes/NotInter-Regular%20SDF.asset?fileID=11400000&guid=5f26a442cb93d0f41b4cf768ebb28362&type=2#NotInter-Regular SDF");
+    -unity-font-style: bold;
+}
+
+.text--paragraph {
+    font-size: 50px;
+    white-space: normal;
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+}
+
+.bottomsheet {
+    flex-grow: 1;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    background-color: rgb(249, 249, 249);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 0;
+    translate: 0 100%;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-out-bounce;
+}
+
+.bottomsheet--up {
+    translate: 0 0;
+}
+
+.scrim {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.51);
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.25s;
+    opacity: 0;
+}
+
+.scrim--fadein {
+    opacity: 1;
+}
+
+.img--boy {
+    flex-grow: 0;
+    width: 350px;
+    height: 600px;
+    background-image: resource('Hyperspace - Floating');
+    flex-direction: row;
+    transition-duration: 1s;
+}
+
+.img--boy--inair {
+    translate: -500px -400px;
+}
+
+.img--boy2 {
+    background-image: resource('Hyperspace - Floating');
+    height: 436px;
+    width: 212px;
+    align-self: auto;
+    transition-duration: 1s;
+}
+
+.img--boy2--up {
+    translate: 0 -30px;
+}

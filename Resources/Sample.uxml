@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/SampleStyle.uss?fileID=7433441132597879392&amp;guid=b0928f7c46d185d46a3197869b95fc81&amp;type=3#SampleStyle" />
+    <ui:VisualElement name="Container" style="width: 100%; height: 100%; align-items: flex-start; align-self: auto; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/NotInter-Regular%20SDF.asset?fileID=11400000&amp;guid=5f26a442cb93d0f41b4cf768ebb28362&amp;type=2#NotInter-Regular SDF&quot;); -unity-font-style: normal;">
+        <ui:VisualElement style="width: 100%; height: 50%; align-self: flex-end; align-items: flex-end; flex-direction: row; flex-wrap: nowrap; justify-content: space-around; background-color: rgb(0, 0, 0);">
+            <ui:VisualElement name="Image_Boy" class="img--boy img--boy--inair" />
+            <ui:VisualElement name="Image_Robot" style="width: 350px; height: 600px; background-image: resource(&apos;Hyperspace - Robot 2&apos;); flex-direction: row;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 0; width: 100%; height: 50%; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgb(255, 250, 250); justify-content: space-around;">
+            <ui:VisualElement style="align-self: auto; padding-bottom: 40px; padding-top: 40px;">
+                <ui:Label tabindex="-1" text="제목" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" class="text--title" />
+                <ui:Label tabindex="-1" text="내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Paragraph" class="text--paragraph" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 100%; height: 240px; align-items: stretch; justify-content: center; padding-right: 60px; padding-left: 60px;">
+                <ui:Button text="버튼" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="false" name="Button_Open" class="button-blue" style="border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-bottom-left-radius: 50px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Container_Bottom" style="width: 100%; height: 100%; position: absolute;">
+            <ui:VisualElement name="Scrim" class="scrim scrim--fadein" />
+            <ui:VisualElement name="Bottom_Sheet" class="bottomsheet">
+                <ui:Label tabindex="-1" text="대사" parse-escape-sequences="true" display-tooltip-when-elided="true" class="text--title" />
+                <ui:VisualElement name="Image_Boy2" class="img--boy2" />
+                <ui:Label tabindex="-1" text="오른쪽 위의 X를 누르시오." parse-escape-sequences="true" display-tooltip-when-elided="true" name="Message" class="text--paragraph" style="padding-top: 100px; padding-bottom: 100px;" />
+                <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button_Close" style="position: absolute; right: 50px; width: 45px; height: 45px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; background-color: rgba(188, 188, 188, 0); background-image: none; -unity-background-image-tint-color: rgb(118, 116, 116); font-size: 100px; color: rgb(159, 153, 153);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
